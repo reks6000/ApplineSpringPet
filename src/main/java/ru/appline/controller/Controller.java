@@ -17,9 +17,9 @@ public class Controller {
         int id = newId.getAndIncrement();
         petModel.add(pet, id);
         if (id == 1) {
-            return "{\n \"Answer\": \"Поздравляем, вы создали вашего первого домашнего питомца!\"\n}";
+            return "{\n\"Answer\": \"Поздравляем, вы создали вашего первого домашнего питомца!\"\n}";
         } else {
-            return "{\n \"Answer\": \"Поздравляем, вы создали домашнего питомца!\"\n}";
+            return "{\n\"Answer\": \"Поздравляем, вы создали домашнего питомца!\"\n}";
         }
     }
 
